@@ -1,5 +1,4 @@
  html, body{
-  background:; 
   color: black;
     max-width: 100% !important;
     overflow-x: hidden !important;
@@ -19,63 +18,13 @@ a{
 
 }
 
-
-.logo{
-width: 100%;
-background:transparent; 
-z-index: 99;
-
-margin-top: 0px;
-margin-bottom: 0px;
-font-family: 'Paytone One', sans-serif;
-color: #595959;
-}
-
-
-.hambre{
- font-family: 'Paytone One', sans-serif;
-  color: #595959;
-
-
-}
-
-
-.cuerpo{
-width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
-  background: transparent; 
-  color:#121D25;
-z-index: -1;
-margin-top: 0px;
-
-  font-family: 'Quicksand', sans-serif;
-  font-size: 17px;
-
-
-}
-.modal{
-  width: 100%;
-}
-.modal-title{
-  font-family: 'Paytone One', sans-serif;
-  color:#595959;
-  
-}
-.modal-body{
-  font-family: 'Quicksand', sans-serif;
-  color:#7F7F7F;
-  
-}
 .carousel {
   background: white;
 
   border-radius: 5px; 
   }
   .carousel .carousel-item {
-    height: 200px;
+    height: 500px;
     border-radius: 5px;  
 
   }
@@ -83,7 +32,7 @@ margin-top: 0px;
       width: 100%;
       height: 100%;
       position: absolute;
-      border-radius: 5px; 
+      border-radius: 10px; 
       top: 0;
       left: 0;
       border-color: black;
@@ -91,7 +40,7 @@ margin-top: 0px;
        }
 @media (min-width: 1000px) {
     .carousel .carousel-item {
-    height: 400px; }
+    height: 700px; }
     .carousel .carousel-item img {
       width: 100%;
       height: 100%;
@@ -102,137 +51,48 @@ margin-top: 0px;
        }
 }
 
-.btn{
-  background-color:#0054AE; 
-  
+.carousel2 {
+  background: white;
+
+  border-radius: 5px; 
+  }
+  .carousel2 .carousel-item {
+    height: 300px;
+    border-radius: 5px;  
+
+  }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      border-radius: 10px; 
+      top: 0;
+      left: 0;
+      border-color: black;
+
+       }
+@media (min-width: 1000px) {
+    .carousel2 .carousel-item {
+    height: 500px; }
+    .carousel2 .carousel-item img {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+       }
 }
 
-.logotipos img {
-    width:100%;
-    height: 100%;
-}
+.texto{
+  font-family: 'Oleo Script Swash Caps';
+  color: #E7342F;
 
-/*img.logotipos {
-    -webkit-transition: all .9s ease-in-out;
-    -moz-transition: all .9s ease-in-out;
-    -o-transition: all .9s ease-in-out;
-    -ms-transition: all .9s ease-in-out;
-}
- 
-.transition {
-    /*transform: scale(1.1);*/
-
-/*}*/
-.logotipos {
-
-overflow: hidden;
-cursor: pointer;
-border-radius: 40px;
-box-shadow: 1px 5px 25px rgba(0,0,0,0.5);
-margin: 5px;
-}
-.logotipos img{
-transition:1.0s;
-will-change: transform;
-}
-.logotipos img:hover{
-transform: translateX(-25%);
-filter: brightness(83%);
-border-radius: 10px;  
-}
-
-.social-container{
-  width:auto;
-  margin:0vh auto;
-  text-align:center
-}
-.social-icons{
-   margin-top: -100px;
-  padding:0;
-  list-style:none;margin:1em
-}
-.social-icons li{
-  display:inline-block;
-  margin:.15em;
-  position:relative;font-size:1.2em
-}
-.social-icons i{color:#fff;
-  position:absolute;top:21px;
-  left:21px;
-  transition:all 265ms ease-out}
-.social-icons a{
-  display:inline-block
-}
-.social-icons a:before{
-  transform:scale(1);
-  -ms-transform:scale(1);
-  -webkit-transform:scale(1);
-  content:" ";
-  width:60px;height:60px;
-  border-radius:100%;
-  display:block;background:linear-gradient(45deg,#00B5F5,#002A8F);
-  transition:all 265ms ease-out
-}
-.social-icons a:hover:before{transform:scale(0);transition:all 265ms ease-in}
-.social-icons a:hover i{transform:scale(2.2);
-  -ms-transform:scale(2.2);
-  -webkit-transform:scale(2.2);
-  color:#00B5F5;background:-webkit-linear-gradient(45deg,#00B5F5,#002A8F);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
-  transition:all 265ms ease-in
-}
-#button {
-  display: inline-block;
-  background-color: #FF9800;
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  border-radius: 4px;
-  margin: 30px;
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  transition: background-color .3s;
-  z-index: 1000;
-}
-#button:hover {
-  cursor: pointer;
-  background-color: #333;
-}
-#button:active {
-  background-color: #555;
-}
-#button::after {
-  content: "\f077";
-  font-family: FontAwesome;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 2em;
-  line-height: 50px;
-  color: #fff;
-}
-.scrollArriba {
- background-color: #002A8F;
-  border-radius: 10px;
-    position: fixed;
-    z-index: 2;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    color: white;
-    border-color: none;
-}
-.piepag {
-  font-size: 1.6rem;
-  text-align: center;
-  z-index: -1;
-  color:white;
-  
-  font-family: 'Archivo Black', sans-serif;
 
 }
+
 .pie{
+  margin-top: 100px;
   background: #0054AE;
   margin-bottom: 0px;
   font-size: 1.2rem;
