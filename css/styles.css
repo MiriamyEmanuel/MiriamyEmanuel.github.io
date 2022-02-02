@@ -21,7 +21,9 @@ a{
 .carousel {
   background: white;
 
-  border-radius: 5px; 
+  border-radius: 10px; 
+  box-shadow: 10px 50px 25px rgba(0,0,0,0.5);
+
   }
   .carousel .carousel-item {
     height: 500px;
@@ -51,10 +53,12 @@ a{
        }
 }
 
+
 .carousel2 {
   background: white;
+  border-radius: 10px; 
+box-shadow: 10px 50px 25px rgba(0,0,0,0.5);
 
-  border-radius: 5px; 
   }
   .carousel2 .carousel-item {
     height: 300px;
