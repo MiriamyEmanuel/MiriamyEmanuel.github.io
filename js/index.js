@@ -2,8 +2,8 @@ window.sr = ScrollReveal();
 
 	sr.reveal('.titulo', {
 		duration: 2000, //tiempo
-		origin: 'bottom', //origen
-		distance: '-250px', //distancia
+		origin: 'top', //origen
+		distance: '0px', //distancia
 		
 
 
