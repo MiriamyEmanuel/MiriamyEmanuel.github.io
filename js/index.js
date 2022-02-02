@@ -1,6 +1,13 @@
 window.sr = ScrollReveal();
 
+	sr.reveal('.titulo', {
+		duration: 2000, //tiempo
+		origin: 'bottom', //origen
+		distance: '-250px', //distancia
+		
 
+
+	}); 
 	sr.reveal('.carousel', {
 		duration: 2000, //tiempo
 		delay:1000,
