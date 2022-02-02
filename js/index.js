@@ -34,7 +34,7 @@ window.sr = ScrollReveal();
 
 	}); 
 	sr.reveal('.carousel2', {
-		delay:1000,
+		delay:900,
 		duration: 1500, //tiempo
 		origin: 'top', //origen
 		distance: '0px', //distancia
